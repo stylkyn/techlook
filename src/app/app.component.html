@@ -1,20 +1,322 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{title}}!
-  </h1>
-  <img width="300" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<header>
+    <!--Navbar-->
+    <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+        <logo>
+            <a class="logo navbar-brand waves-light" mdbRippleRadius href="#"><strong>techlook</strong></a>
+        </logo>
+        <links>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active waves-light" mdbRippleRadius>
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item waves-light" mdbRippleRadius>
+                    <a class="nav-link" href="#">Kontakt</a>
+                </li>
+                <li class="nav-item waves-light" mdbRippleRadius>
+                    <a class="nav-link" href="#">Naše práce</a>
+                </li>
+                <li class="nav-item waves-light" mdbRippleRadius>
+                    <a class="nav-link" href="#">O nás</a>
+                </li>
+            </ul>
+            <form class="form-inline waves-light" mdbRippleRadius>
+                <input style="border-bottom: none;box-shadow: none;" class="form-control mr-sm-2 serach" type="text" placeholder="Vyhledat" aria-label="Search">
+            </form>
+        </links>
+    </mdb-navbar>
 
+    <!--Intro Section-->
+    <section style="height: 800px;" class="view intro-2 hm-gradient up-left">
+        <div class="full-bg-img">
+            <div class="container flex-center">
+                <div class="row flex-center pt-5 mt-3">
+                    <div class="col-md-6 text-center text-md-left margins">
+                        <div class="white-text">
+                            <h1 class="h1-responsive wow fadeInLeft" data-wow-delay="0.3s">Make purchases with our app </h1>
+                                <hr class="hr-light wow fadeInLeft" data-wow-delay="0.3s">
+                                <h6 class="wow fadeInLeft" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem repellendus quasi fuga nesciunt dolorum nulla magnam veniam sapiente, fugiat! Commodi sequi non animi ea dolor molestiae iste.</h6>
+                                <br>
+                                <a class="btn btn-outline-white wow fadeInLeft waves-light" data-wow-delay="0.3s" mdbRippleRadius>Learn more</a>
+                                <a class="btn btn-outline-white wow fadeInLeft waves-light" data-wow-delay="0.3s" mdbRippleRadius>Download 
+                                    <i class="fa fa-android left right" aria-hidden="true"></i>
+                                    <i class="fa fa-apple left" aria-hidden="true"></i>
+                                    <i class="fa fa-windows" aria-hidden="true"></i>
+                                </a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 wow fadeInRight d-flex justify-content-center" data-wow-delay="0.3s">
+                        <img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/iphone-admin.png" alt="" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+<!--Section: Features v.3-->
+<div class="container">
+    <section class="section feature-box">
+    
+        <!--Section heading-->
+        <h1 class="section-heading pt-4">Why is it so great?</h1>
+        <!--Section description-->
+        <p class="section-description lead grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Quia, minima?</p>
+    
+        <!--Grid row-->
+        <div class="row features-small pt-2">
+    
+            <!--Grid column-->
+            <div class="col-lg-5 mb-r center-on-small-only wow fadeInLeft"  data-wow-delay="0.1s">
+                <img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/ipad-portfolio2.png" alt="" class="img-fluid z-depth-0">
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-7 wow fadeInUp" >
+    
+                <!--Grid row-->
+                <div class="row pb-3">
+                    <div class="col-2 col-md-1">
+                        <i class="fa fa-bank blue-text"></i>
+                    </div>
+                    <div class="col-10">
+                        <h5 class="feature-title">Safety</h5>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                    </div>
+                </div>
+                <!--Grid row-->
+    
+                <!--Grid row-->
+                <div class="row pb-3">
+                    <div class="col-2 col-md-1">
+                        <i class="fa fa-code blue-text"></i>
+                    </div>
+                    <div class="col-10">
+                        <h5 class="feature-title">Technology</h5>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                    </div>
+                </div>
+                <!--Grid row-->
+    
+                <!--Grid row-->
+                <div class="row pb-3">
+                    <div class="col-2 col-md-1">
+                        <i class="fa fa-money blue-text"></i>
+                    </div>
+                    <div class="col-10">
+                        <h5 class="feature-title">Finance</h5>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                    </div>
+                </div>
+                <!--Grid row-->
+    
+            </div>
+            <!--Grid column-->
+    
+        </div>
+        <!--Grid row-->
+    
+    </section>
+    
+</div>
+  <!--Intro Section-->
+  <section style="height: 600px;" class="view intro-2 hm-gradient up-right">
+    <div class="full-bg-img white-text">
+        <div class="container flex-center wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row flex-center pt-5 mt-3">
+                <!--Section heading-->
+    <h2 class="section-heading h1 pt-4">Contact us</h2>
+    <!--Section description-->
+    <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Quia, minima?</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-8 col-xl-9">
+            <form>
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form">
+                            <div class="md-form white-input">
+                                <input mdbActive type="text" id="contact-name" class="form-control">
+                                <label for="contact-name" class="">Your name</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form">
+                            <div class="md-form white-input">
+                                <label for="contact-email" class="">Your email</label>
+                                <input mdbActive type="text" id="contact-email" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form white-input">
+                            <label for="contact-Subject" class="">Subject</label>
+                            <input mdbActive type="text" id="contact-Subject" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form white-input">
+                            <label for="contact-message">Your message</label>
+                            <textarea mdbActive type="text" id="contact-message" class="md-textarea"></textarea>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="center-on-small-only float-right">
+                <a class="btn btn-primary waves-light" mdbRippleRadius>Send</a>
+            </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-4 col-xl-3">
+            <ul class="contact-icons">
+                <li><i class="fa fa-map-marker fa-2x"></i>
+                    <p>San Francisco, CA 94126, USA</p>
+                </li>
+
+                <li><i class="fa fa-phone fa-2x"></i>
+                    <p>+ 01 234 567 89</p>
+                </li>
+
+                <li><i class="fa fa-envelope fa-2x"></i>
+                    <p>contact@mdbootstrap.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!--Footer-->
+<footer style="margin-top: 0;" class="page-footer mdb-color center-on-small-only  wow fadeIn">
+    
+        <!--Footer Links-->
+        <div class="container">
+            <div class="row">
+    
+                <!--First column-->
+                <div class="col-md-3 offset-md-1">
+                    <h5 class="title">Footer Content </h5>
+                    <p>Here you can use rows and columns here to organize your footer content.</p>
+                </div>
+                <!--/.First column-->
+    
+                <hr class="hidden-md-up">
+    
+                <!--Second column-->
+                <div class="col-md-2 offset-md-1">
+                    <h5 class="title">Links</h5>
+                    <ul>
+                        <li><a href="#!">Link 1</a></li>
+                        <li><a href="#!">Link 2</a></li>
+                        <li><a href="#!">Link 3</a></li>
+                        <li><a href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+    
+                <hr class="hidden-md-up">
+    
+                <!--Third column-->
+                <div class="col-md-2">
+                    <h5 class="title">Links</h5>
+                    <ul>
+                        <li><a href="#!">Link 1</a></li>
+                        <li><a href="#!">Link 2</a></li>
+                        <li><a href="#!">Link 3</a></li>
+                        <li><a href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <!--/.Third column-->
+    
+                <hr class="hidden-md-up">
+    
+                <!--Fourth column-->
+                <div class="col-md-2">
+                    <h5 class="title">Links</h5>
+                    <ul>
+                        <li><a href="#!">Link 1</a></li>
+                        <li><a href="#!">Link 2</a></li>
+                        <li><a href="#!">Link 3</a></li>
+                        <li><a href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <!--/.Fourth column-->
+    
+            </div>
+        </div>
+        <!--/.Footer Links-->
+    
+        <hr>
+    
+        <!--Call to action-->
+        <div class="call-to-action">
+            <ul>
+                <li>
+                    <h5>Register for free</h5>
+                </li>
+                <li><a href="" class="btn btn-danger waves-light" mdbRippleRadius>Sign up!</a></li>
+            </ul>
+        </div>
+        <!--/.Call to action-->
+    
+        <hr>
+    
+        <!--Social buttons-->
+        <div class="text-center mb-3">
+    
+            <a class="btn-floating btn-small btn-fb waves-light" mdbRippleRadius><i class="fa fa-facebook"> </i></a>
+            <a class="btn-floating btn-small btn-tw waves-light" mdbRippleRadius><i class="fa fa-twitter"> </i></a>
+            <a class="btn-floating btn-small btn-gplus waves-light" mdbRippleRadius><i class="fa fa-google-plus"> </i></a>
+            <a class="btn-floating btn-small btn-li waves-light" mdbRippleRadius><i class="fa fa-linkedin"> </i></a>
+            <a class="btn-floating btn-small btn-git waves-light" mdbRippleRadius><i class="fa fa-github"> </i></a>
+            <a class="btn-floating btn-small btn-pin waves-light" mdbRippleRadius><i class="fa fa-pinterest"> </i></a>
+            <a class="btn-floating btn-small btn-ins waves-light" mdbRippleRadius><i class="fa fa-instagram"> </i></a>
+    
+        </div>
+        <!--/.Social buttons-->
+    
+        <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                © 2017 Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
+    
+            </div>
+        </div>
+        <!--/.Copyright-->
+    
+    </footer>
+    <!--/.Footer-->
