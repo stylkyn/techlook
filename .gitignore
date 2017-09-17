@@ -16,6 +16,14 @@
 *.launch
 .settings/
 *.sublime-workspace
+.angular-cli.json
+.editorconfig
+.karma.conf.js
+package-lock.json
+package.json
+prostractor.conf.js
+tsoncfing.json
+tslint.json
 
 # IDE - VSCode
 .vscode/*
