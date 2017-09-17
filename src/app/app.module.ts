@@ -1,9 +1,7 @@
-import { PagesModule } from './pages/pages.module';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, NO_ERRORS_SCHEMA  } from '@angular/core';
-import { MDBBootstrapModule } from 'angular-bootstrap-md';
-
 import { AppComponent } from './app.component';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 
 @NgModule({
   declarations: [
@@ -11,13 +9,10 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    MDBBootstrapModule.forRoot(),
-
-    // our modules
-    PagesModule
+    MDBBootstrapModule.forRoot()
   ],
   providers: [],
-  bootstrap: [AppComponent],
-  schemas: [ NO_ERRORS_SCHEMA  ]
+  schemas: [ NO_ERRORS_SCHEMA ],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
