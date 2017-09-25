@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('techlook-web App', () => {
+describe('techlook App', () => {
   let page: AppPage;
 
   beforeEach(() => {

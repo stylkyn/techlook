@@ -9,6 +9,14 @@
 /node_modules
 
 # IDEs and editors
+tsling.json
+tsconfig.json
+README.md 
+protractor.conf.js
+package.json
+karma.conf.js
+.editorconfig
+.angular-cli.json
 /.idea
 .project
 .classpath
