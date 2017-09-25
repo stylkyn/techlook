@@ -12,7 +12,9 @@ import { HomepageComponent } from './homepage.component';
     MDBBootstrapModule.forRoot(),
     RouterModule
   ],
-  declarations: [HomepageComponent],
+  declarations: [
+    HomepageComponent,
+],
   exports: [HomepageComponent],
   schemas: [NO_ERRORS_SCHEMA]
 })
