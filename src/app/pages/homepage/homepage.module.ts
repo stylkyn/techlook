@@ -16,6 +16,6 @@ import { HomepageComponent } from './homepage.component';
     HomepageComponent,
 ],
   exports: [HomepageComponent],
-  schemas: [NO_ERRORS_SCHEMA]
+  schemas: []
 })
 export class HomepageModule { }
