@@ -1,6 +1,6 @@
 
 .intro-2 {
-    background: url("https://mdbootstrap.com/img/Photos/Others/architecture.jpg")no-repeat center center;
+    background: url("/assets/img/homepage-back.jpg")no-repeat center center;
     background-size: cover;
 }
 .btn .fa {
@@ -8,9 +8,23 @@
 }
 .top-nav-collapse {
     background-color: rgba(0, 153, 204, 0.8) !important;
+    .app-brand{
+        -webkit-animation: animateThis 0.4s ease-in;
+        -webkit-animation-fill-mode: forwards;
+        width: 135px !important;
+    }
 }
+@-webkit-keyframes animateThis {
+    0% {
+      width: 173px;
+    }
+    100% {
+      width: 135px;
+    }
+  }
 .navbar:not(.top-nav-collapse) {
     background: transparent !important;
+    padding: 15px 0  !important;
 }
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
@@ -21,7 +35,16 @@ h6 {
     line-height: 1.7;
 }
 .hm-gradient .full-bg-img {
-    background: linear-gradient(45deg, rgba(42, 27, 161, 0.6), rgba(29, 210, 177, 0.6) 100%); 
+    background: linear-gradient(-68deg, rgba(26, 139, 182, 0.41), rgba(29, 140, 210, 0.84) 100%);
+}
+.hm-gradient .full-bg-img-red {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    background: linear-gradient(-68deg, rgba(182, 26, 26, 0.41), rgba(210, 29, 29, 0.84) 100%);
 }
 @media (max-width: 450px) {
     .margins {
@@ -60,4 +83,11 @@ h6 {
     padding: 10px 17px;
     border-radius: 4px;
     margin: 0 !important;
+}
+
+.app-text-blue{
+    color: #0691c6;
+}
+.app-blue{
+    background: #0691c6
 }

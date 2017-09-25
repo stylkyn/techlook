@@ -1,0 +1,31 @@
+.app-stepper {
+  margin-top: 20px;
+}
+.app-stepper div:first-child {
+  margin-top: 100px;
+  border-bottom: 10px solid #0691c6;
+}
+.app-stepper div:nth-child(2) {
+  margin-top: 75px;
+  border-bottom: 20px solid #0691c6;
+}
+.app-stepper div:nth-child(3) {
+  margin-top: 50px;
+  border-bottom: 30px solid #0691c6;
+}
+.app-stepper div:last-child {
+  margin-top: 25px;
+  border-bottom: 50px solid #0691c6;
+  border-bottom-right-radius: 10px;
+}
+.app-stepper .app-circle-chart {
+  font-size: 46px;
+  padding: 21px;
+  border-radius: 50%;
+  margin-bottom: 23px;
+  background: #0691c6;
+  color: white !important;
+}
+.app-hr-blue {
+  background: rgba(6, 145, 198, 0.34);
+}

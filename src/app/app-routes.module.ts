@@ -4,12 +4,10 @@ import { NgModule } from '@angular/core';
 
 
 const APP_ROUTES: Routes = [
-//    { path: '', redirectTo: 'homepage', pathMatch: 'full' },
-    // {
-    //     path: 'dashboard',
-    //     loadChildren: 'app/pages/dashboard/dashboard.module#DashboardModule'
-    // },
-    //  { path: 'homepage', component: HomepageComponent},
+    { path: '', redirectTo: 'homepage', pathMatch: 'full' },
+ //   { path: 'homepage', component: HomepageComponent},
+    { path: 'homepage', loadChildren: 'app/pages/homepage/homepage.module#HomepageModule'},
+    { path: 'contact', loadChildren: 'app/pages/contact/contact.module#ContactModule'},
 ];
 
 @NgModule({
