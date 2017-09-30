@@ -29,3 +29,8 @@
 .app-hr-blue {
   background: rgba(6, 145, 198, 0.34);
 }
+#header-responsive {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.56);
+  padding: 29px;
+  margin: 33px 11% 0px 11%;
+}
